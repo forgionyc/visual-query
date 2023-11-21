@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Table,
   Thead,
@@ -26,7 +26,7 @@ const TableCountries = () => {
 
   useEffect(() => {
     apiClient
-      .get<FetchCountriesResponse>("/query")
+      .get<FetchCountriesResponse>("/country-summary")
       .then((res) => setCountries(res.data.results))
       .catch((err) => setError(err.message));
   }, []);
@@ -55,38 +55,3 @@ const TableCountries = () => {
 };
 
 export default TableCountries;
-
-// function MyTable() {
-//   return (
-//     <TableContainer>
-//       <Table variant="simple">
-//         <TableCaption>Countries WB Api</TableCaption>
-//         <Thead>
-//           <Tr>
-//             <Th>Country Name</Th>
-//             <Th>Code</Th>
-//           </Tr>
-//         </Thead>
-//         <Tbody>
-//           <Tr>
-//             <Td>inches</Td>
-//             <Td>millimetres (mm)</Td>
-//             <Td isNumeric>25.4</Td>
-//           </Tr>
-//           <Tr>
-//             <Td>feet</Td>
-//             <Td>centimetres (cm)</Td>
-//             <Td isNumeric>30.48</Td>
-//           </Tr>
-//           <Tr>
-//             <Td>yards</Td>
-//             <Td>metres (m)</Td>
-//             <Td isNumeric>0.91444</Td>
-//           </Tr>
-//         </Tbody>
-//       </Table>
-//     </TableContainer>
-//   );
-// }
-
-// export default MyTable;
