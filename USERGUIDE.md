@@ -6,7 +6,7 @@
   <!-- <a href="https://instayapackagepickupplatform.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">InstaYA Package Pickup Platform</h1>
+<h1 align="center">VisualQuery</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/forgionyc/Visual-Query?color=56BEB8">
@@ -48,13 +48,20 @@
 Designed and developed a dashboard app for the velezreyez fellowship, the platform consist of a backend developed with FastApi, a mysql database and a frotend developed in reactjs with ts using the chakra-ui library, it was developedd with microservices architecture in mind, it feautures a GUI that allows users to select data from a bigquery database, abstracting all the sql language, users can se a graphical representation of his data, save his favorite queries, comment on other users queries and see all the queries on the database, user can also explore the most important table of the database with pagination, the app counts with multiplayer functionality and persistence.
 
 Login
-![image](https://user-images.githubusercontent.com/113073942/204686590-4adba4de-e26b-4d17-9458-c2be1dba0c02.png)
+![image](https://github.com/forgionyc/visual-query/assets/109704682/b7837359-26c1-40f9-a14b-7b4ae5b1ae99)
 
-Visualización ordenes creadas
-![image](https://user-images.githubusercontent.com/113073942/204686487-f4351ed5-47d2-4ac8-9d50-1f6b7bb0b29f.png)
+Dashboard
+![image](https://github.com/forgionyc/visual-query/assets/109704682/f52f8698-5156-4bf4-adb6-20b16d9ac787)
 
-Creación de orden
-![image](https://user-images.githubusercontent.com/113073942/204686649-b687d006-685c-48b3-8baf-b7c933b938b5.png)
+My saved queries
+![image](https://github.com/forgionyc/visual-query/assets/109704682/4b4392dd-33b9-43d9-8d20-cbd39b47cb7a)
+
+All saved queries
+![image](https://github.com/forgionyc/visual-query/assets/109704682/db6eb65f-880a-4fc0-a6f0-2421665d03c6)
+
+DataExplorer
+![image](https://github.com/forgionyc/visual-query/assets/109704682/45dc6b7b-d04b-451f-b4f1-96fe928976d3)
+
 
 ## :rocket: Technologies
 
