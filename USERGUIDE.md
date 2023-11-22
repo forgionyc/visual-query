@@ -95,6 +95,9 @@ $ docker run -d -p 5000:5000 backend/instaya y docker run -d -p 3000:3000 fronte
 
 ## :memo:
 
+## LINK YOUTUBE: https://youtu.be/nJkGY_d2kA0
+
+
 Made with :heart: by <a href="https://github.com/forgionyc" target="_blank">Carlos Forgiony</a>
 
 &#xa0;
