@@ -85,10 +85,10 @@ $ git clone https://github.com/forgionyc/Visual-Query
 $ cd Visual-Query
 
 # Build the docker images for the backend and the frontend
-$ docker build -t backend/instaya . y docker build -t frontend/instaya .
+$ docker compose up -d
 
 # Run the project
-$ docker run -d -p 5000:5000 backend/instaya y docker run -d -p 3000:3000 frontend/instaya
+$ docker compose run visual-query
 
 # The server will initialize in the <http://localhost:3000> for the frontend and <http://localhost:5000> for the backend
 ```
